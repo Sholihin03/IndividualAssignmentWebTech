@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <link rel="stylesheet" href="rm1.css">
+</head>
+<body>
+    <div class ="container">
+        <div class ="main-page">
+            <div>
+                <img src="logo2.png" alt="iium logo">
+            </div>
+            <div class = "title">
+                <p>RM 1 CAMPAIGN</p>
+            </div>
+            <div class = "tagline">
+                <br>
+                <p>Let your contributions be perpetual for the pleasure of Allah swt</p>
+            </div>
+            <div class = "surah">
+                <br>
+                <br>
+                <p>"The example of those who spend their wealth in the cause of Allah </p>
+                <p>is that of a grain that sprouts into seven ears, each bearing </p>  
+                <p>one hundred grains. And Allah multiplies (the reward even more) </p>
+                <p>to whoever He wills. For Allah is All-Bountiful, All-Knowing."</p>
+                <br>
+                <p>[Baqarah : 261]</p>
+            </div>
+        </div>
+        <div class = "form-page">
+            <form action="">
+                <fieldset>
+                    <legend>FORM</legend>
+                    <div class ="uname">
+                        <label for ="name">Name :</label><br>
+                        <input type = "text" name ="name" id = "name">
+                    </div>
+                    <div class ="staffno">
+                        <label for ="staff">Staff no. :</label><br>
+                        <input type = "text" name ="staff" id = "staff">         
+                    </div>
+                    <div class = "place">
+                        <label for = "staffplace">K/C/D/I/O :</label><br>
+                        <input type ="text" name ="staffplace" id = "staffplace">
+                    </div>
+                    <div class = "contactno">
+                        <label for ="contact">Contact no. :</label><br>
+                        <input type = "text" name = "contact" id = "contact">
+                    </div>
+                    <div class = "email">
+                        <label for ="emailadd">Email :</label><br>
+                        <input type = "text" name = "emailadd" id="emailadd">
+                    </div>
+                    <div class = "amountdeduct">
+                        <label for ="amount">Amount to be deducted :</label><br>
+                        <input type="text" name = "amount" id = "amount">
+                    </div>
+                    <div class = "datededuct">
+                        <label for ="datede1">The salary will take effect from :  </label>
+                        <input type ="date" name="datede1" id=" datede1">
+                        
+                        <label for ="datede2">until :</label>
+                        <input type="date" name="datede2" id="datede2">
+                    </div>
+                    <div class = "signature">
+                        <label for ="sign">Insert your signature here :</label>
+                        <input type ="file" name = "sign" id = "sign">
+                    </div>
+                    <div class = "date">
+                        <label for ="date3">Date :</label>
+                        <input type ="date" name ="date3" id ="date3">
+                    </div>
+                    <div class="submit">
+                        <br>
+                        <button type = "submit" onclick ="Submitting()">Submit</button>
+
+                        <script>
+                            function Submitting() {
+                                alert('You have submitted the form');
+                            };
+                        </script>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="contactus">
+            <fieldset>
+                <legend>Contact us</legend>
+                <div class ="contactdetails">
+                    <p>IIUM ENDOWMENT FUND</p>
+                    <p>Level 3, Rectory</p>
+                    <p>International Islamic University</p>
+                    <P>P.O. Box 10</P>
+                    <p>50728 Kuala Lumpur</p>
+                    <p>Tel : 03 6196 4268</p>
+                    <p>Email : ief@iium.edu.my</p>
+                    <p>Website : www.iium.edu.my/ief</p>
+                    <p>Facebook : www.facebook.com/ief.official/</p>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>
